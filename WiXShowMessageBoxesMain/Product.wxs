@@ -5,7 +5,7 @@
     <MediaTemplate EmbedCab="yes" />
 
     <!-- Diabled main GUI (custom action GUI will show), just un-comment to enable MSI GUI sequence -->
-    <!--<UIRef Id="WixUI_Mondo" />-->
+    <UIRef Id="WixUI_Mondo" />
 
     <!-- Custom Action -->
     <Binary Id="CustomActions" SourceFile="$(var.WiXShowMessageBoxes.TargetDir)$(var.WiXShowMessageBoxes.TargetName).CA.dll" />
