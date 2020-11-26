@@ -22,12 +22,12 @@ namespace WiXShowMessageBoxes
             return ActionResult.Success;
         }
 
-        [CustomAction]
-        public static ActionResult CustomActionName(Session session)
-        {
-            session.Log("Begin CustomActionName");
+        //[CustomAction]
+        //public static ActionResult CustomActionName(Session session)
+        //{
+        //    session.Log("Begin CustomActionName");
 
-            return ActionResult.Success;
-        }
+        //    return ActionResult.Success;
+        //}
     }
 }
