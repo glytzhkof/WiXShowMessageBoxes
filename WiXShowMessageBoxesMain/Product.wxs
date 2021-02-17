@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
-  <Product Id="*" Name="WiXShowMessageBoxes" Language="1033" Version="1.0.0" Manufacturer="-" UpgradeCode="b3d89acb-71d9-48ab-a3df-886d49965ea3">
+  <Product Id="*" Name="WiXShowMessageBoxes" Language="1033" Version="1.0.0" Manufacturer="-" UpgradeCode="PUT-GUID-HERE">
     <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
     <MediaTemplate EmbedCab="yes" />
+    
+    <!-- TODO: Create a GUID using this link: https://www.guidgenerator.com/ and paste into the above UpgradeCode attribute -->
 
     <!-- Diabled main GUI (custom action GUI will show), just un-comment to enable MSI GUI sequence -->
     <!--<UIRef Id="WixUI_Mondo" />-->
